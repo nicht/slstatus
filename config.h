@@ -71,4 +71,5 @@ static const struct arg args[] = {
 	{ ram_perc,      " RAM %2s%%,",  NULL   			 },
 	{ disk_perc, 	 " DISK %2s%%]", "/"			 	 },
 	{ datetime,      "[%s]",         "%a %e %b %k:%M"    },
+	{ wifi_essid, 	 "[%s]",		 "wlp1s0"			 }
 };
